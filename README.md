@@ -15,6 +15,7 @@
 
 # DNS
  TLD and www is pointed to [gihub pages](https://help.github.com/articles/setting-up-a-custom-domain-with-pages). 
+ So is onehundredhellos.daniel-lauzon.com.
 
 ## TODO
 
@@ -35,11 +36,6 @@
 *   check Rake tasks - remove backup
 *   Rakefile
 *   robots.txt
-*   sitemap.xml (+gogle ping)
-* <strike>move to daniel-lauzon.com</strike>
-* <strike>landing page</strike>
-* <strike>get a favicon.ico</strike>
-* <strike>highlight correct entry in navbar</strike>
 
 ### Install requirements:
 
@@ -48,13 +44,8 @@
     gem install rdiscount
 
 #### Pagination 
-DON'T do this cause plugins don't work on github...
-
-    # if you need to paginate more than one file, 
-    # or a file other than index.html: blog.html for us
-    gem install jekyll-pagination
-    # and add to _plugins/ext.rb
-    require 'jekyll/pagination'
+Using multiple paginated files works with jekyll, but requires `jekyll/pagination` plugin which does not work on github pages.
+So this was removed.
 
 #### Syntax highlighting (python)
 
@@ -72,7 +63,7 @@ See [this article](http://www.stehem.net/2012/02/14/how-to-get-pygments-to-work-
 
 
 ## History
-**2012** The site has been redone with bootstrap (responsive). (2.1)
+**2012** The site has been redone with bootstrap (responsive). (2.1). It was also split into two repos one for personal [site](http://daniel-lauzon.com/), and one for the [blog](http://onehundredhellos.daniel-lauzon.com/)
 
 **2011** This site site was originally forked/cloned/copied/modified from [TJ Steins's site](http://tjstein.com/) which was publicly accessible at [github](https://github.com/bummercloud/tjstein.com)
 
