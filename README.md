@@ -1,4 +1,4 @@
-[This repository](https://github.com/daneroo/daneroo.github.com) holds the source code and configuration for my personal website.
+[This repository](https://github.com/daneroo/onehundredhellos) holds the source code and configuration for my personal website.
 
 ## Usage
 
@@ -48,8 +48,9 @@
     gem install rdiscount
 
 #### Pagination 
+DON'T do this cause plugins don't work on github...
 
-    # if you need to paginate more than one file,
+    # if you need to paginate more than one file, 
     # or a file other than index.html: blog.html for us
     gem install jekyll-pagination
     # and add to _plugins/ext.rb
