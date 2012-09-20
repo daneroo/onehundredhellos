@@ -7,20 +7,32 @@ Author's custom styles
 */
 body {
   background-image: url('../img/wall4.png');
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
+@media (max-width: 979px){
+  .navbar-fixed-top {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    padding-right: 10px;
+    padding-left: 10px;  
+  }
+}
 .white {
 	background: #fff;
 }
-article.post.white.well {
+article.post.well {
   padding:0px 10px 10px 10px;
 }
 .navbar .nav > li > a { /*squeeze navbar to fit 320px h-padding 15->7 */
   padding: 10px 7px 10px;
 }
 
+.pagination {
+  margin: 10px 0;
+}
 
 
 .thumbnail h3 {
