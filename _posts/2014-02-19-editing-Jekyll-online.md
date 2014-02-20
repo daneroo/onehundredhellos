@@ -1,5 +1,4 @@
 ---
-published: false
 layout: post
 excerpt: "While scanning in some old pictures, I found that setting their date metadata would be useful"
 tags: 
