@@ -13,14 +13,16 @@ It even has a mac installable **dmg** download.
 
 Here's a nice shortcut for setting all 3 common date fields in a JPEG image.
 
-    # show original dates (there are none!)
-    $ exiftool -alldates test.jpg
-    
-    # set the dates
-    $ exiftool "-alldates=1968:05:16 05:00:00" test.jpg
-    
-    # show updated dates (there are 3!)
-    $ exiftool -alldates test.jpg 
-    Date/Time Original              : 1968:05:16 00:00:00
-    Create Date                     : 1968:05:16 00:00:00
-    Modify Date                     : 1968:05:16 00:00:00
+```bash
+# show original dates (there are none!)
+$ exiftool -alldates test.jpg
+
+# set the dates
+$ exiftool "-alldates=1968:05:16 05:00:00" test.jpg
+
+# show updated dates (there are 3!)
+$ exiftool -alldates test.jpg
+Date/Time Original              : 1968:05:16 00:00:00
+Create Date                     : 1968:05:16 00:00:00
+Modify Date                     : 1968:05:16 00:00:00
+```

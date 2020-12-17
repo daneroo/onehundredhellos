@@ -13,7 +13,7 @@ permalink: /:year/:month/:title
 
 # Replaced rdiscount because of deprecation
 markdown: GFM
-pygments: true
+# Removed Pygments: deprecated
 
 exclude:
   - README.md
