@@ -11,7 +11,8 @@ paginate: 10
 
 permalink: /:year/:month/:title
 
-markdown: rdiscount
+# Replaced rdiscount because of deprecation
+markdown: GFM
 pygments: true
 
 exclude:
